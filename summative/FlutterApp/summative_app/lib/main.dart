@@ -44,13 +44,28 @@ class _LaunchPredictionFormState extends State<LaunchPredictionForm> {
   String? country;
 
   final organisations = [
-    'SpaceX', 'NASA', 'Blue Origin', 'ESA', 'ISRO', 'Roscosmos'
+    "AEB", "AMBA", "ASI", "Arianespace", "Armée de l'Air",
+    "Blue Origin", "Boeing", "CASC", "CASIC", "CECLES", "CNES", "Douglas",
+    "EER", "ESA", "Eurockot", "ExPace", "Exos", "General Dynamics",
+    "IAI", "ILS", "IRGC", "ISA", "ISAS", "ISRO", "JAXA", "KARI", "KCST",
+    "Khrunichev", "Kosmotras", "Land Launch", "Landspace", "Lockheed", "MHI",
+    "MITT", "Martin Marietta", "NASA", "Northrop", "OKB-586", "OneSpace",
+    "RAE", "RVSN USSR", "Rocket Lab", "Roscosmos", "SRC", "Sandia",
+    "Sea Launch", "SpaceX", "Starsem", "ULA", "US Air Force", "US Navy",
+    "UT", "VKS RF", "Virgin Orbit", "Yuzhmash", "i-Space"
   ];
   final rocketStatuses = ['StatusActive', 'StatusRetired'];
   final missionStatuses = [
     'Failure', 'Partial Failure', 'Prelaunch Failure', 'Success'
   ];
-  final countries = ['USA', 'Russia', 'China', 'India', 'France'];
+  final countries =[
+    "Australia", "Barents Sea", "Brazil", "China", "France",
+    "Gran Canaria", "India", "Iran", "Israel", "Japan",
+    "Kazakhstan", "Kenya", "New Mexico", "New Zealand",
+    "North Korea", "Pacific Missile Range Facility",
+    "Pacific Ocean", "Russia", "Shahrud Missile Test Site",
+    "South Korea", "USA", "Yellow Sea"
+  ];
 
   String? prediction;
   List<String> predictionHistory = [];
