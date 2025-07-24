@@ -39,4 +39,6 @@ Run the app
 ```
 flutter run
 ```
-
+-----------------------
+## Extra Effort
+Hello Marvin, i know you are busy with a lot of grading and students to get through so i made an apk file that you can easily download and install on your phone to test the app.
